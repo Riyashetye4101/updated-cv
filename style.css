@@ -1,0 +1,89 @@
+
+body{
+	margin:0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(to bottom,rgb(232, 255, 255),rgb(204, 255, 189),rgba(204, 255, 189,0.5))
+
+}
+
+h1,h2,h3{
+	font-size: 2.3em;
+	font-family: 'Cookie', cursive;
+}
+.pro1{
+	font-weight: normal;
+	font-size: 2rem;
+}
+.top-container{
+	/* background: rgb(232, 255, 255); */
+	position: relative;
+}
+.bottom-cloud{
+	position: absolute;
+}
+.name{
+	margin-top: 80px;
+		color:#66BFBF;
+}
+
+.intro{
+	font-size: 90px;
+	margin: 50px auto 0 auto;
+
+}
+h3{
+	color:#B1E693;
+}
+h2{
+	color:#6ECB63;
+
+}
+.pro{
+	text-decoration: underline;
+}
+.top-cloud{
+	position: relative;
+	top:80px;
+	left: 200px;
+}
+hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:5%;
+	border-top:10px dotted #7ECA9C;
+}
+.bottom-container a,.contact-me a{
+
+	text-decoration: none;
+	color:#11999E;
+}
+.navbar{
+	width: 100%;
+	height: 50px;
+
+	background: rgb(232, 255, 255);
+	position: fixed;
+
+}
+.l1{
+	display: inline-block;
+	margin: auto 20px auto;
+}
+.l1 a{
+		text-decoration: none;
+}
+nav{
+	position: relative;
+	right: 300px;
+}
+.l1 a:link{
+	color: #41AEA9;
+}
+.l1 a:visited{
+  color: #41AEA9;
+}
+li a:hover{
+	color: white;
+}
